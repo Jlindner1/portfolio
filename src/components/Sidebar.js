@@ -18,7 +18,7 @@ class Sidebar extends React.Component {
                     <div className="profile-img"><a className="home-link"><img src={me}/></a></div>
                     <h1>Hello!</h1>
                     <h2>Josiah Lindner</h2> 
-                    <p>Creating quality web applications, that incorporate quality front and back-end design</p>               
+                    <p>Creating quality web applications that incorporate quality front and back-end design</p>               
                 </section>                
             </div>
 

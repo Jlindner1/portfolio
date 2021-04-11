@@ -1,14 +1,14 @@
 .sidebar {
     background-color: rgb(31, 33, 46);
     width: 20%;
-    max-height: 100%;
+    max-height: inherit;
     padding: 50px;
     box-shadow: 5px 0px 10px black;
     z-index: 10;
 }
 
 .sticky{
-    position: sticky; top: 10px;
+    position: sticky; top: 0;
 }
 
 .profile-img {
@@ -16,6 +16,10 @@
     margin: 0 auto;
     padding-top: 100%;
     position: relative;
+}
+
+.profile-img:hover {
+    cursor: pointer;
 }
 
 h1 {
@@ -54,4 +58,11 @@ h2 {
 .profile-img img:hover {
     border-color: #d67600;
     transition: all 200ms ease;
+}
+
+@media only screen and (max-width: 740px) {
+
+    .sidebar {
+        display: none;
+    }
 }
