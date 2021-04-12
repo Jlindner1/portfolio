@@ -22,3 +22,10 @@ h3 {
   padding: 0;
   margin: 0;
 }
+
+@media only screen and (max-width: 740px) {
+
+  .App {
+    flex-direction: column;
+  }
+}

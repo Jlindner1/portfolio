@@ -56,6 +56,18 @@ ul {
     /* display: none; */
 }
 
+.fade {
+    max-height: 0px;
+    opacity: 0;
+    transition: opacity .5s ease, max-height 2s;
+}
+
+.error-display {
+    max-height: 100px;
+    opacity: 1;
+    transition: opacity 2s ease, max-height .5s;
+}
+
 .dropdown-button {
     background-color: #d67600;
     width: 100%;
@@ -187,14 +199,94 @@ h5 {
     margin: 10px;
 }
 
-.intro {
-    padding: 0 10px 10px 10px;
+.content {
+    padding: 0 50px 10px;
+    transform: scaleY(1);
 }
 
-.intro p {
-    font-size: 2rem;
+.content p {
+    font-size: 1.5rem;
     color: rgb(196, 197, 218);
     font-weight: bold;
+    text-align: left;
+    margin: 0 auto 10px;
+}
+
+.contact-form {
+    display: flex;
+}
+
+.contact-info {
+    display: flex;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    min-width: 50%;
+}
+
+.form-group textarea {
+    height: 300px;
+}
+
+.form-control {
+    min-height: 20px;
+    background-color: rgb(196, 197, 218);
+    font: inherit;
+    font-weight: 600;
+}
+
+label {
+    color: #d67600;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.form-control {
+    display: block;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.btn {
+    width: 200px;
+    font: inherit;
+    font-weight: bold;
+    background-color: #d67600;
+    border-radius: 5px;
+    color: rgb(196, 197, 218);
+    border: none;
+    box-shadow: 0 0 10px black;
+    transition: all .5s ease;
+}
+
+.btn:hover {
+    background-color: rgb(196, 197, 218);
+    cursor: pointer;
+    color: #d67600;
+    transition: all .5s ease;
+}
+
+.error-msg {
+    color: white;
+    background-color: rgba(221, 99, 99, 0.514);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.success-msg {
+    color: white;
+    background-color: rgba(144, 221, 99, 0.514);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h4 {
+    margin: auto;
 }
 
 @media only screen and (max-width: 740px) {
@@ -203,7 +295,7 @@ h5 {
         flex-flow: column;
         justify-content: center;
         align-content: center;
-        
+        padding: 10px 5px 10px;
         
     }
 
@@ -221,11 +313,24 @@ h5 {
         transition: max-height 1s ease, transform 1s ease, opacity 1s;
     }
 
+    .banner {
+        height: 100px;
+    }
+
     .banner h1 {
         font-size: 2rem;
     }
 
-    .intro p {
-        font-size: 1.5rem;
+    .content {
+        padding: 0 0 10px;
+    }
+
+    .contact-info {
+        flex-direction: column;
+    }
+
+    .content p {
+        font-size: 1rem;
+        margin: 5px 10px
     }
 }
