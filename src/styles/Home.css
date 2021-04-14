@@ -330,7 +330,8 @@ h4 {
     }
 
     .content {
-        padding: 0 0 10px;
+        padding: 10px;
+        margin: 5px 5px 10px;
     }
 
     .contact-info {
