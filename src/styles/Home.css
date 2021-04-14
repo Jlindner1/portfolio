@@ -59,7 +59,7 @@ ul {
 .fade {
     max-height: 0px;
     opacity: 0;
-    transition: opacity .5s ease, max-height 2s;
+    transition: opacity 1s ease, max-height 3s;
 }
 
 .error-display {
@@ -190,6 +190,7 @@ h3 {
     background-color: rgb(196, 197, 218);
     position: sticky;
     margin-top: auto;
+    background-image: url("../img/black-linen.png");
 }
 
 h5 {
@@ -200,8 +201,14 @@ h5 {
 }
 
 .content {
-    padding: 0 50px 10px;
+    padding: 10px;
     transform: scaleY(1);
+    border-radius: 10px;
+    background-color: rgb(31, 33, 46);
+    margin: 0 40px 40px;
+    box-shadow: 5px 5px 10px black;
+    transition: all 1s ease;
+    background-image: url("../img/black-linen.png");
 }
 
 .content p {
@@ -288,6 +295,7 @@ label {
 h4 {
     margin: auto;
 }
+
 
 @media only screen and (max-width: 740px) {
     .main-content {
