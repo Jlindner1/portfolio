@@ -450,7 +450,7 @@ class Home extends React.Component {
                 </section> 
                 <footer className="main-footer">
                     <div>
-                        <h5>&#169;2021 - Josiah Lindner </h5>
+                        <h5>Josiah Lindner, 2021, All Rights Reserved</h5>
                     </div>
                 </footer>               
             </div>
