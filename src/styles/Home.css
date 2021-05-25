@@ -326,10 +326,12 @@ a {
 
 .img-container {
     height: 250px;
+    min-width: 250px;
     max-width: 250px;
     margin-right: 20px;
     border-radius: 5px;
     overflow: hidden;
+    background-color: white;
 }
 
 .img-container img {
@@ -342,6 +344,10 @@ a {
     left: 0;
     bottom: 0;
     right: 0; */
+}
+
+.scc {
+    max-width: 200px;
 }
 
 h3 {

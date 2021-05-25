@@ -138,7 +138,7 @@ class Home extends React.Component {
                 <div className="content">
                     <h3>Welcome!</h3>
                     <p>
-                        I'm Josiah, a software developer specializing in web-based apps and projects, in both Front-end and Back-end capacities. Creating and learning new things along the way is my passion!
+                        I'm Josiah, a software developer specializing in web-based apps and projects, in both Front-end and Back-end capacities. Creating new things is my passion, and learning along the way is part of the fun!
                     </p>
                     <p>
                         I would love to help you make your ideas and projects a reality! Feel free to look around my site for more info and examples on what I have done/am doing, and if you have any questions or would like to inquire about my services, use the contact form to reach out!
@@ -254,17 +254,17 @@ class Home extends React.Component {
                 <div className="content">
                     <div className="card">
                         <div className="img-container">
-                            <img src={SCC_portrait_logo} alt="Sacred Cow Company logo" />
+                            <img className="scc" src={SCC_portrait_logo} alt="Sacred Cow Company logo" />
                         </div>
                         <div>
                             <h3>The Sacred Cow Company</h3>
                             <p>
-                                I worked with a team of my fellow students to develop a MVP business appilcation for The Sacred Cow Company, a business focusing on coaching and developing leadeship skills and prepping people for management or leadership positions.
+                                I worked with a team of my fellow students to develop a Minimum Viable Product for The Sacred Cow Company, a business focusing on coaching and developing leadership skills and prepping people for management or leadership positions.
                                 The web app is used to keep track of clients, coaches and their appointments and progress in the curriculum.
-                                This applicaiton was developed witha SCRUM methodology, completing tasks and demonstrating progress to the client in two week sprints.
+                                This applicaiton was developed with SCRUM methodology, completing tasks and demonstrating progress to the client in two week sprints.
                             </p>
                             <p>
-                                As far as the technological artichtecture of the application, it utilized a docker containerization to have seperate PostgreSQL Database layer, DOT NET Core REST API back-end and a React.js front-end. I worked primarliy on the back-end and database components of the project, implmenting a robust SQL database structure and Controller/Service/Repository back-end utilizing microservices for the core funcitonality of the project as well as creating the controller API routes for the front end to interact with to get the data being handled. 
+                                As far as the technological architecture of the application, it utilizes docker containerization to have seperate PostgreSQL Database layer, DOT NET Core REST API back-end and a React.js front-end. I worked primarliy on the back-end and database components of the project, implmenting a robust SQL database structure and Controller/Service/Repository back-end utilizing microservices for the core funcitonality of the project as well as creating the controller API routes for the front end to interact with to get the data being handled. 
                                 This included retrieving and manipulating Database data, creating validation/handling classes, processing the incoming/outgoing data through a service layer and routing it to its necessary destinations.
                                 In adition to this though, I also worked a significant amount on the React.js front-end making UX and data handling changes to ensure things were presented well and the information from the back-end/DB was handled properly and efficiently and provided an excellent user experience.
                             </p>
@@ -380,7 +380,7 @@ class Home extends React.Component {
         return (
             <div className="home">
                 <header className="banner">  
-                    <h1>Full Stack Development</h1>
+                    <h1>Josiah Lindner: Full Stack Developer</h1>
                 </header>
                 <section>
                 <div className="main-content">
