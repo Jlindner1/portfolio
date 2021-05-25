@@ -269,7 +269,7 @@ class Home extends React.Component {
                                 In adition to this though, I also worked a significant amount on the React.js front-end making UX and data handling changes to ensure things were presented well and the information from the back-end/DB was handled properly and efficiently and provided an excellent user experience.
                             </p>
                             <p>
-                                Although I would love to have a interactive example of how the application functions, the privacy of the Client, their users do not allow me to have current access to the software now that it has been handed off to them for use.
+                                Although I would love to have a interactive example of how the application functions, the privacy of the Client and their users do not allow me to have current access to the software now that it has been handed off to them for use.
                             </p>
                         </div>
                     </div>
