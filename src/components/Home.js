@@ -157,7 +157,7 @@ class Home extends React.Component {
                         <div>
                             <a className href="https://cms-messages.herokuapp.com" target="_blank"><h3>Messenger Appplication</h3></a>
                             <p>
-                                An application built with PHP and a codeigniter framework, utilizing IonAuth user management and a interactible database to allow new users to sign up and send messages with other users.
+                                An application built with PHP and a codeigniter framework, utilizing IonAuth user management and an interactive database to allow users to sign up/login and send messages with each other.
                             </p>
                         </div>
                     </div>
@@ -176,7 +176,7 @@ class Home extends React.Component {
                                 A sample showing techniques and implementation of responsive web design principles. This spage is designed utilizing a mobile-first methodology to enure that it is convenient and easy to use for a majority of the web-using population who is experienceing the internet through a smartphone. 
                             </p>
                             <p>
-                                For this page, I was given a Photshop file with the design, and implmented it in HTML and CSS from scratch.
+                                For this page, I was given a Photoshop file with the design, and implmented it in HTML and CSS from scratch.
                             </p>
                         </div>
                     </div>
@@ -190,7 +190,7 @@ class Home extends React.Component {
                                 A sample webpage showcasing a possible storefront design utilizing dropdowns, and shop item cards. This is not a responsive page, and showcases utilization of CSS design abilities rather than a funcitonal page.
                             </p>
                             <p>
-                                For this page, I was given a Photshop file with the design, and implmented it in HTML and CSS from scratch.
+                                For this page, I was given a Photoshop file with the design, and implmented it in HTML and CSS from scratch.
                             </p>
                         </div>
                     </div>
@@ -207,7 +207,7 @@ class Home extends React.Component {
                             <a className href="https://jlindner1.github.io/pokedex/" target="_blank"><h3>Pokédex Front-end</h3></a>
                             <p>
                                 A react application interacting with data from the PokéAPI to create a simple Pokédex.
-                                this project started from a tutorial, but all the internal logic is mine, and the styling is the only leftover from the tutorial. These stylings will be replaced and additional functionality will be added as I have time to evolve the project.
+                                this project started from a demonstration of how to work with the API, but all the internal logic is mine, and the styling is the only leftover from the demo. These stylings will be replaced and additional functionality will be added as I have time to evolve the project.
                             </p>
                         </div>
                     </div>
