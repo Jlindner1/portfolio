@@ -157,7 +157,10 @@ class Home extends React.Component {
                         <div>
                             <a className href="https://cms-messages.herokuapp.com" target="_blank"><h3>Messenger Appplication</h3></a>
                             <p>
-                                An application built with PHP and a codeigniter framework, utilizing IonAuth user management and an interactive database to allow users to sign up/login and send messages with each other.
+                                An application built with PHP and a codeigniter framework, utilizing IonAuth user management and an interactive database to allow users to sign up/login and send messages with each other. This application is hosted throguh heroku, and utilizes a cloud based MySQL database using remotemysql.com.
+                            </p>
+                            <p>
+                                This project utilizes simple modified bootstrap styling, and will have nicer styling and more features as I have time to add to them.
                             </p>
                         </div>
                     </div>
