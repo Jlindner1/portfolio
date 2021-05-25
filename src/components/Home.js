@@ -11,6 +11,7 @@ import storefront from '../img/storefront.png';
 import responsive_page from '../img/responsive_page.png';
 import construction from "../img/construction.png";
 import pokemon from "../img/pokemon.png";
+import messagesystem from "../img/messagesystem.JPG";
 emailJs.init("user_hxfO5whlzoN4hbuBtpvvL");
 
 
@@ -151,12 +152,12 @@ class Home extends React.Component {
                 <div className="content">
                     <div className="card">
                         <div className="img-container">
-                            <img src={construction} alt="under construction image" />
+                            <img src={messagesystem} alt="Messenger App Thumbnail" />
                         </div>
                         <div>
-                            <a className href="#" target="_blank"><h3>Under Construction...</h3></a>
+                            <a className href="https://cms-messages.herokuapp.com" target="_blank"><h3>Messenger Appplication</h3></a>
                             <p>
-                                This page is still being worked on, come back soon!
+                                An application built with PHP and a codeigniter framework, utilizing IonAuth user management and a interactible database to allow new users to sign up and send messages with other users.
                             </p>
                         </div>
                     </div>
