@@ -12,6 +12,7 @@ import responsive_page from '../img/responsive_page.png';
 import construction from "../img/construction.png";
 import pokemon from "../img/pokemon.png";
 import messagesystem from "../img/messagesystem.JPG";
+import SCC_portrait_logo from "../img/SCC_portrait_logo.png";
 emailJs.init("user_hxfO5whlzoN4hbuBtpvvL");
 
 
@@ -137,13 +138,13 @@ class Home extends React.Component {
                 <div className="content">
                     <h3>Welcome!</h3>
                     <p>
-                        I'm Josiah, a software developer specializing in web-based apps and projects, in both Front-end and Back-end capacities. Creating and learning new things along the way is my passion, and solving problems and finding new ones is my hobby! 
+                        I'm Josiah, a software developer specializing in web-based apps and projects, in both Front-end and Back-end capacities. Creating and learning new things along the way is my passion!
                     </p>
                     <p>
-                        Feel free to look around my site for more info and examples on what I have done/am doing, and if you have any questions or would like to inquire about my services, use the contact form to reach out!
+                        I would love to help you make your ideas and projects a reality! Feel free to look around my site for more info and examples on what I have done/am doing, and if you have any questions or would like to inquire about my services, use the contact form to reach out!
                     </p>
                     <p>
-                        This page is meant to display my current abilities in terms of front-end design, and will evolve as my skills develop further and I increase the breadth of my portfolio. I have designed and implemented this React application from the ground up myself using React and CSS, and I hope this page gives you a good sample of my talents and insight into my skillsets and journey in web development. 
+                        This page is meant to display my current abilities in terms of front-end design, and will evolve as my skills develop further and I increase the breadth of my portfolio. I have designed and implemented this single-page web application from the ground up myself using React.js and my own CSS styling, and I hope this page gives you a good sample of my talents, insight into my skillsets and journey in web development. 
                     </p>
                 </div>;
         }
@@ -157,7 +158,7 @@ class Home extends React.Component {
                         <div>
                             <a className href="https://cms-messages.herokuapp.com" target="_blank"><h3>Messenger Appplication</h3></a>
                             <p>
-                                An application built with PHP and a codeigniter framework, utilizing IonAuth user management and an interactive database to allow users to sign up/login and send messages with each other. This application is hosted throguh heroku, and utilizes a cloud based MySQL database using remotemysql.com.
+                                An application built with PHP and a codeigniter framework, utilizing IonAuth user management and an interactive database to allow users to sign up/login and send messages with each other. This application is hosted through heroku, and utilizes a cloud based MySQL database using remotemysql.com.
                             </p>
                             <p>
                                 This project utilizes simple modified bootstrap styling, and will have nicer styling and more features as I have time to add to them.
@@ -253,12 +254,22 @@ class Home extends React.Component {
                 <div className="content">
                     <div className="card">
                         <div className="img-container">
-                            <img src={construction} alt="under construction image" />
+                            <img src={SCC_portrait_logo} alt="Sacred Cow Company logo" />
                         </div>
                         <div>
-                            <a className href="#" target="_blank"><h3>Under Construction...</h3></a>
+                            <h3>The Sacred Cow Company</h3>
                             <p>
-                                This page is still being worked on, come back soon!
+                                I worked with a team of my fellow students to develop a MVP business appilcation for The Sacred Cow Company, a business focusing on coaching and developing leadeship skills and prepping people for management or leadership positions.
+                                The web app is used to keep track of clients, coaches and their appointments and progress in the curriculum.
+                                This applicaiton was developed witha SCRUM methodology, completing tasks and demonstrating progress to the client in two week sprints.
+                            </p>
+                            <p>
+                                As far as the technological artichtecture of the application, it utilized a docker containerization to have seperate PostgreSQL Database layer, DOT NET Core REST API back-end and a React.js front-end. I worked primarliy on the back-end and database components of the project, implmenting a robust SQL database structure and Controller/Service/Repository back-end utilizing microservices for the core funcitonality of the project as well as creating the controller API routes for the front end to interact with to get the data being handled. 
+                                This included retrieving and manipulating Database data, creating validation/handling classes, processing the incoming/outgoing data through a service layer and routing it to its necessary destinations.
+                                In adition to this though, I also worked a significant amount on the React.js front-end making UX and data handling changes to ensure things were presented well and the information from the back-end/DB was handled properly and efficiently and provided an excellent user experience.
+                            </p>
+                            <p>
+                                Although I would love to have a interactive example of how the application functions, the privacy of the Client, their users do not allow me to have current access to the software now that it has been handed off to them for use.
                             </p>
                         </div>
                     </div>
@@ -274,13 +285,13 @@ class Home extends React.Component {
                         <div>
                             <h3>About Me</h3>
                             <p>
-                                From Edmonton Alberta, Canada - I am a Graduate from NAIT's Computer Software Development program, I am a passionate developer always looking for the next oppurtunity to further develop my abilities.
+                                From Edmonton Alberta, Canada - I am a Graduate from NAIT's DMIT Computer Software Development program, and a passionate developer always looking for the next oppurtunity to further develop my abilities.
                             </p>
                             <p>
-                                If I'm not working on my next project, I can often be found drawing, painting, learning a new piano piece or trying my hand at developing little video-games.
+                                If I'm not working on my next project, I can often be found drawing, painting, learning a new piano piece or trying my hand at developing little videogames.
                             </p>
                             <p>
-                                I have a great enthusiasm for taking things apart and finding out how and why they work - which is part of the reason I fell into programming, as there is always a new level to which you can increase your understanding as to how much of our modern world functions - and in turn how we as people interact with the world around us. 
+                                I have a great enthusiasm for looking deeper and finding out how and why they work - which is part of the reason I fell into programming, as there is always a new level to which you can increase your understanding as to how much of our modern world functions - and in turn how we as people interact with the world around us. 
                             </p>
                         </div>
                     </div>
@@ -307,7 +318,7 @@ class Home extends React.Component {
                             <ul>
                                 <li>Proficient in JavaScript fundamentals and best practices</li>
                                 <li>Vanilla JS - Can utilize vanilla JS to add additional functionality and interactibility to static web pages</li>
-                                <li>jQuery - Famliar with the jQuery library for handling additional features, integrations, and data handling</li>
+                                <li>jQuery/jQuery Mobile - Famliar with the jQuery library for handling additional features, integrations, and data handling</li>
                                 <li>React - Experienced in the React framework/library for creating robust web applications with component and state management</li>
                                 <li>Vue.js - Some experience with the Vue.js library</li>
                             </ul>
