@@ -186,7 +186,7 @@ class Home extends React.Component {
                             <div>
                                 
                                 <p>
-                                    A sample showing techniques and implementation of responsive web design principles. This spage is designed utilizing a mobile-first methodology to ensure that it is convenient and easy to use for a majority of the web-using population who is experienceing the internet through a smartphone, as well as desktop users. 
+                                    A sample showing techniques and implementation of responsive web design principles. This page is designed utilizing a mobile-first methodology to ensure that it is convenient and easy to use for a majority of the web-using population who is experienceing the internet through a smartphone, as well as desktop users. 
                                 </p>
                                 <p>
                                     For this page, I was given a Photoshop file with the design, and implemented it in HTML and CSS from scratch.
