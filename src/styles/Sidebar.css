@@ -69,7 +69,40 @@ h2 {
 .profile-img img:hover {
     border-color: #d67600;
     box-shadow: 0 0 20px orange;
+    height: 90%;
+    width: 90%;
     transition: all 200ms ease;
+}
+
+.social {
+    background-color: rgb(196, 197, 218);
+    color: rgb(31, 33, 46);
+    border-radius: 10px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.social-link {
+    color: rgb(31, 33, 46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: rgb(196, 197, 218);
+    transition: all 500ms ease;
+}
+
+.social-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: #d67600;    
+    color: rgb(196, 197, 218);
+    font-size: 1.5rem;
+    transition: all 500ms ease;
+}
+
+.social-link h4 {
+    margin: 0 0 0 5px
 }
 
 @media only screen and (max-width: 740px) {
@@ -88,6 +121,11 @@ h2 {
         margin: 20px auto;
         padding: 0;
         position: relative;
+    }
+
+    .profile-img img:hover {
+        height: 220px;
+        width: 220px;
     }
 
     .profile-img {
