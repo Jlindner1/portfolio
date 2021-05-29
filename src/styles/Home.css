@@ -444,6 +444,10 @@ a>.card:hover {
         justify-content: flex-end;
     }
 
+    .dropdown-item h3 {
+        margin: 0;
+    }
+
     .dropdown-item .icon {
         width: 50px;
     }
