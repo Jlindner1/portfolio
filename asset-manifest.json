@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c367d6f3.chunk.css",
+    "main.css": "/portfolio/static/css/main.27a22c78.chunk.css",
     "main.js": "/portfolio/static/js/main.0fba02de.chunk.js",
     "main.js.map": "/portfolio/static/js/main.0fba02de.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.5b10001c.js",
@@ -12,7 +12,7 @@
     "static/js/3.03caf6ba.chunk.js.map": "/portfolio/static/js/3.03caf6ba.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.fe708519.chunk.css.map": "/portfolio/static/css/2.fe708519.chunk.css.map",
-    "static/css/main.c367d6f3.chunk.css.map": "/portfolio/static/css/main.c367d6f3.chunk.css.map",
+    "static/css/main.27a22c78.chunk.css.map": "/portfolio/static/css/main.27a22c78.chunk.css.map",
     "static/js/2.33790eb5.chunk.js.LICENSE.txt": "/portfolio/static/js/2.33790eb5.chunk.js.LICENSE.txt",
     "static/media/Home.css": "/portfolio/static/media/black-paper.a26ab42f.png",
     "static/media/construction.1e207470.png": "/portfolio/static/media/construction.1e207470.png",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.5b10001c.js",
     "static/css/2.fe708519.chunk.css",
     "static/js/2.33790eb5.chunk.js",
-    "static/css/main.c367d6f3.chunk.css",
+    "static/css/main.27a22c78.chunk.css",
     "static/js/main.0fba02de.chunk.js"
   ]
 }
