@@ -156,73 +156,81 @@ class Home extends React.Component {
             content = 
                 <div className="content">
                     <a className href="https://cms-messages.herokuapp.com" target="_blank"><h3>Messenger Appplication</h3></a>
-                    <div className="card">
-                        <div className="img-container">
-                            <img src={messagesystem} alt="Messenger App Thumbnail" />
+                    <a href="https://cms-messages.herokuapp.com" target="_blank">
+                        <div className="card">
+                            <div className="img-container">
+                                <img src={messagesystem} alt="Messenger App Thumbnail" />
+                            </div>
+                            <div>
+                                
+                                <p>
+                                    An application built with PHP and a codeigniter framework, utilizing IonAuth user management and an interactive database to allow users to sign up/login and send messages to each other. This application is hosted through heroku, and utilizes a cloud hosted MySQL database.
+                                </p>
+                                <p>
+                                    This project utilizes simple modified bootstrap styling, and will have nicer styling and more features as I have time to add to them.
+                                </p>
+                            </div>
                         </div>
-                        <div>
-                            
-                            <p>
-                                An application built with PHP and a codeigniter framework, utilizing IonAuth user management and an interactive database to allow users to sign up/login and send messages to each other. This application is hosted through heroku, and utilizes a cloud hosted MySQL database.
-                            </p>
-                            <p>
-                                This project utilizes simple modified bootstrap styling, and will have nicer styling and more features as I have time to add to them.
-                            </p>
-                        </div>
-                    </div>
+                    </a>
                 </div>
         }
         else if (page === "static") {
             content = 
                 <div className="content cards">
                     <a className href="https://jlindner1.github.io/responsive-design/" target="_blank"><h3>Responsive Static Web Page</h3></a>
-                    <div className="card">
-                        <div className="img-container">
-                            <img src={responsive_page} alt="responsive website image" />
+                    <a href="https://jlindner1.github.io/responsive-design/" target="_blank">
+                        <div className="card">
+                            <div className="img-container">
+                                <img src={responsive_page} alt="responsive website image" />
+                            </div>
+                            <div>
+                                
+                                <p>
+                                    A sample showing techniques and implementation of responsive web design principles. This spage is designed utilizing a mobile-first methodology to ensure that it is convenient and easy to use for a majority of the web-using population who is experienceing the internet through a smartphone, as well as desktop users. 
+                                </p>
+                                <p>
+                                    For this page, I was given a Photoshop file with the design, and implemented it in HTML and CSS from scratch.
+                                </p>
+                            </div>
                         </div>
-                        <div>
-                            
-                            <p>
-                                A sample showing techniques and implementation of responsive web design principles. This spage is designed utilizing a mobile-first methodology to ensure that it is convenient and easy to use for a majority of the web-using population who is experienceing the internet through a smartphone, as well as desktop users. 
-                            </p>
-                            <p>
-                                For this page, I was given a Photoshop file with the design, and implemented it in HTML and CSS from scratch.
-                            </p>
-                        </div>
-                    </div>
+                    </a>
+
                     <a className href="https://jlindner1.github.io/storefront-sample/" target="_blank"><h3>Storefront Static Web Page</h3></a>
-                    <div className="card">
-                        <div className="img-container">
-                            <img src={storefront} alt="storefront website image" />
+                    <a href="https://jlindner1.github.io/storefront-sample/" target="_blank">
+                        <div className="card">
+                            <div className="img-container">
+                                <img src={storefront} alt="storefront website image" />
+                            </div>
+                            <div>
+                                
+                                <p>
+                                    A sample webpage showcasing a possible storefront design utilizing dropdowns, and shop item cards. This is not a responsive page, and showcases utilization of CSS design abilities rather than a funcitonal page.
+                                </p>
+                                <p>
+                                    For this page, I was given a Photoshop file with the design, and implmented it in HTML and CSS from scratch.
+                                </p>
+                            </div>
                         </div>
-                        <div>
-                            
-                            <p>
-                                A sample webpage showcasing a possible storefront design utilizing dropdowns, and shop item cards. This is not a responsive page, and showcases utilization of CSS design abilities rather than a funcitonal page.
-                            </p>
-                            <p>
-                                For this page, I was given a Photoshop file with the design, and implmented it in HTML and CSS from scratch.
-                            </p>
-                        </div>
-                    </div>
+                    </a>
                 </div>;
         }
         else if (page === "react") {
             content = 
                 <div className="content">
                     <a className href="https://jlindner1.github.io/pokedex/" target="_blank"><h3>Pokédex Front-end</h3></a>
-                    <div className="card">
-                        <div className="img-container">
-                            <img src={pokemon} alt="pokemon API page image" />
+                    <a href="https://jlindner1.github.io/pokedex/" target="_blank">
+                        <div className="card">
+                            <div className="img-container">
+                                <img src={pokemon} alt="pokemon API page image" />
+                            </div>
+                            <div>
+                                <p>
+                                    A react application interacting with data from the PokéAPI to create a simple Pokédex.
+                                    this project started from a demonstration of how to work with the API, but all the internal logic is mine, and the styling is the only leftover from the demo. These stylings will be replaced and additional functionality will be added as I have time to evolve the project.
+                                </p>
+                            </div>
                         </div>
-                        <div>
-                            
-                            <p>
-                                A react application interacting with data from the PokéAPI to create a simple Pokédex.
-                                this project started from a demonstration of how to work with the API, but all the internal logic is mine, and the styling is the only leftover from the demo. These stylings will be replaced and additional functionality will be added as I have time to evolve the project.
-                            </p>
-                        </div>
-                    </div>
+                    </a>
                 </div>;
         }
         else if (page === "education") {

@@ -326,6 +326,7 @@ a {
     flex-direction: row;
     margin-bottom: 10px;
     margin-top: 10px;
+    transition: all .5s ease;
 }
 
 .img-container {
@@ -392,6 +393,11 @@ a>h3:hover {
 
 .card-col h3 {
     margin-top: 20px;
+}
+
+a>.card:hover {
+    background-color: #d67600;
+    transition: all .5s ease;
 }
 
 .skill-card {
