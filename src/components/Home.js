@@ -280,7 +280,7 @@ class Home extends React.Component {
                             <p>
                                 I worked with a team of my fellow students to develop a Minimum Viable Product for The Sacred Cow Company, a business focusing on coaching and developing leadership skills and prepping people for management or leadership positions.
                                 The web app is used to keep track of clients, coaches and their appointments and progress in the curriculum.
-                                This applicaiton was developed with SCRUM methodology, completing tasks and demonstrating progress to the client in two week sprints.
+                                This application was developed with SCRUM methodology, completing tasks and demonstrating progress to the client in two week sprints.
                             </p>
                             <p>
                                 As far as the technological architecture of the application, it utilizes docker containerization to have seperate PostgreSQL Database layer, DOT NET Core REST API back-end and a React.js front-end. I worked primarliy on the back-end and database components of the project, implmenting a robust SQL database structure and Controller/Service/Repository back-end utilizing microservices for the core funcitonality of the project as well as creating the controller API routes for the front end to interact with to get the data being handled. 
