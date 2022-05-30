@@ -15,9 +15,6 @@ import messagesystem from "../img/messagesystem.JPG";
 import SCC_portrait_logo from "../img/SCC_portrait_logo.png";
 emailJs.init("user_hxfO5whlzoN4hbuBtpvvL");
 
-
-
-
 class Home extends React.Component {
     constructor(props){
         super(props);
@@ -418,7 +415,8 @@ class Home extends React.Component {
         return (
             <div className="home">
                 <header className="banner">  
-                    <h1>Josiah Lindner: Full Stack Developer</h1>
+                <div className="transition-gradient"/>
+                <h1>Josiah Lindner: Full Stack Developer</h1>
                 </header>
                 <section>
                 <div className="main-content">
