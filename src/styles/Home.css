@@ -1,8 +1,7 @@
 .home {
-  width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
+  margin-left: 20%;
 }
 
 ul {
@@ -13,25 +12,14 @@ ul {
 .main-content {
   display: flex;
   justify-content: space-evenly;
-  max-width: 100%;
-  /* height: 100%; */
-  padding: 25px;
-  flex-wrap: no-wrap;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-start;
+  padding: 20px;
 }
 
 .column {
-  min-width: 32%;
-  max-width: 33.33%;
-  /* max-height: 100%; */
-  border-radius: 5px;
-  overflow: hidden;
-  background-image: url("../img/arches.png");
-  background-color: rgb(196, 197, 218);
-  box-shadow: 5px 5px 40px -10px black;
-  margin: 2px;
+  width: 33.33%;
 }
 
 .row {
@@ -40,11 +28,13 @@ ul {
   width: 100%;
   justify-content: center;
   align-content: center;
-  padding-bottom: 20px;
 }
 
 .dropdown-buttons {
 	/* position: absolute; */
+  padding-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .visible {
@@ -81,58 +71,49 @@ ul {
 }
 
 .dropdown-button {
-  background-color: #d67600;
-  width: 100%;
+  background-color: #ffc421b9;
   height: 50px;
   overflow: hidden;
-  margin: 0;
-  background-image: url("../img/arches.png");
+  color: white;
+  border-radius: 10px 10px 0px 0px;
+  /* margin: 0; */
+  /* background-image: url("../assets/arches.png"); */
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(196, 197, 218);
+  /* color: rgb(196, 197, 218); */
   font-size: 1.5rem;
   font-weight: bold;
+  box-shadow: 5px 5px 40px -10px black;
   transition: all 0.5s ease;
 }
 
 .dropdown-button:hover {
-  background-color: rgb(196, 197, 218);
+  background-color: rgba(88, 36, 129, 0.747);
   cursor: pointer;
   font-size: 2rem;
-  color: #d67600;
+  color: #ffc421b9;
   transition: all 0.5s ease;
 }
 
 .dropdown {
-  /* height: 100%; */
-  /* display: flex; */
-  flex-direction: column;
-  /* border-radius: 5px; */
-  margin: 0;
-  overflow: hidden;
-  /* display: inline; */
-  background-image: url("../img/arches.png");
-  /* border: 5px solid black */
+  margin: 5px;
+  position: relative;
 }
 
-/* .background-icon {
-    position: relative;
-    top: 40%;
-    left: 40%;
-    font-size: 6rem;
-    height: 0;
-} */
-
 .dropdown-content {
-  height: 100%;
+  position: absolute;
+  z-index: 100;
   background-color: rgb(31, 33, 46);
   margin: 0;
-  background-image: url("../img/black-paper.png");
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: flex-start;
   padding: 5px;
+  border-radius: 0 0 10px 10px;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .dropdown-item {
@@ -141,7 +122,7 @@ ul {
   border-radius: 5px;
   height: max-content;
   background-color: rgb(223, 224, 236);
-  background-image: url("../img/black-paper.png");
+  background-image: url("../assets/black-paper.png");
   cursor: pointer;
   margin: 5px;
   color: rgb(31, 33, 46);
@@ -167,18 +148,18 @@ ul {
   transition: all 0.5s ease;
 }
 
-.banner {
+/* .banner {
   width: 100%;
   height: 200px;
   background-image: linear-gradient(
     to bottom right,
-    #fff821c7,
-    rgba(255, 0, 221, 0.425)
+    #fff021d5,
+    rgba(141, 0, 122, 0.644)
   );
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 .transition-gradient {
   position: absolute;
@@ -193,7 +174,7 @@ ul {
   transition: opacity 0.5s ease;
 }
 
-.banner:hover .transition-gradient {
+/* .banner:hover .transition-gradient {
   opacity: 1;
 }
 
@@ -210,7 +191,7 @@ ul {
   color: white;
   font-size: 3.25rem;
   transition: all 0.5s ease;
-}
+} */
 
 .dropdown-item .icon {
   font-size: clamp(1rem, 5vw, 4.5rem);
@@ -226,7 +207,7 @@ h3 {
   background-color: rgb(196, 197, 218);
   position: sticky;
   margin-top: auto;
-  background-image: url("../img/black-linen.png");
+  background-image: url("../assets/black-linen.png");
 }
 
 h5 {
@@ -244,7 +225,7 @@ h5 {
   margin: 0 40px 40px;
   box-shadow: 5px 5px 10px black;
   transition: all 1s ease;
-  background-image: url("../img/black-linen.png");
+  background-image: url("../assets/black-linen.png");
 }
 
 .content p {
@@ -350,7 +331,7 @@ a {
 
 .card {
   /* background-color: rgb(196, 197, 218); */
-  background-image: url("../img/black-paper.png");
+  background-image: url("../assets/black-paper.png");
   padding: 20px;
   border-radius: 5px;
   /* max-width: 80%; */
@@ -481,7 +462,7 @@ a > .card:hover {
     width: 50px;
   }
 
-  .banner {
+  /* .banner {
     height: 100px;
   }
 
@@ -491,7 +472,7 @@ a > .card:hover {
 
   .banner:hover h1 {
     font-size: 2.1rem;
-  }
+  } */
 
   .content {
     padding: 10px;

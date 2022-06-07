@@ -1,16 +1,16 @@
 .sidebar {
     background-color: rgb(31, 33, 46);
     width: 20%;
-    max-height: inherit;
-    padding: 50px;
-    position: sticky;
-    box-shadow: 5px 0px 10px black;
+    height: 100%;
+    padding: 25px;
+    /* display: inline; */
+    /* position: sticky; */
+    box-shadow: 5px 0px 40px -10px black;
     z-index: 10;
-    background-image: url("../img/black-linen.png");
-}
-
-.sticky{
-    position: sticky; top: 0;
+    /* background-image: url("../assets/black-linen.png"); */
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;
 }
 
 .profile-img {
