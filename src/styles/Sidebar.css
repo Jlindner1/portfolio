@@ -1,13 +1,10 @@
 .sidebar {
     background-color: rgb(31, 33, 46);
-    width: 20%;
-    height: 100%;
+    width: 20vw;
+    height: 100vh;
     padding: 25px;
-    /* display: inline; */
-    /* position: sticky; */
     box-shadow: 5px 0px 40px -10px black;
     z-index: 10;
-    /* background-image: url("../assets/black-linen.png"); */
     position: fixed;
     top: 0;
     box-sizing: border-box;

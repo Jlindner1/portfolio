@@ -1,4 +1,5 @@
 import React from 'react';
+import "../styles/DropDownList.css";
 
 const DropDownList = ({children, title}) => {
   const toggleDropdown = (e) => {

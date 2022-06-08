@@ -14,10 +14,11 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import {ROUTE} from '../utils/Routes';
 import DropDownList from './DropDownList';
+import "../styles/DropDownList.css";
 
-const MainContent = ({content, toggleDropdown, setContent}) => {
+const NavList = ({setContent}) => {
   return (
-    <section className="main-content">
+    <nav>
 			<div className="row dropdown-buttons">
 				<div className="column">
 					<DropDownList title={"Live Projects"}>
@@ -86,9 +87,8 @@ const MainContent = ({content, toggleDropdown, setContent}) => {
 					</DropDownList>
         </div>
 			</div>
-			{content}
-    </section> 
+    </nav> 
   );
 };
 
-export default MainContent;
+export default NavList;

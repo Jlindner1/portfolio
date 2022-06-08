@@ -1,8 +1,8 @@
 import React from "react";
 import "../styles/Sidebar.css";
 import me from "../assets/me.jpg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faLinkedin, faGithubSquare} from "@fortawesome/free-brands-svg-icons";
 import {ROUTE} from "../utils/Routes";
 
 const Sidebar = ({changeContent}) => {
@@ -19,8 +19,8 @@ const Sidebar = ({changeContent}) => {
 				</div>
 			</div>
 			<h1>Hello!</h1>
-			<h2>Josiah Is:</h2>
-			<p>Developing Web Applications From</p>
+			<h2>Josiah is:</h2>
+			<p>Developing Web Applications in</p>
 			<p className="location-p">Edmonton AB, Canada</p>
 			<div className="social">
 				<div

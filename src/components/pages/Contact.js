@@ -1,16 +1,18 @@
-import React, { useState } from 'react';
+// import React, {useState, useEffect} from "react";
+import {useEffect, useState} from "react";
 import emailJs from "emailjs-com";
 
-emailJs.init("user_hxfO5whlzoN4hbuBtpvvL");
-
 const Contact = () => {
-	const [dropped, setDropped] = useState(false);
 	const [name, setName] = useState("");
 	const [email, setEmail] = useState("");
 	const [message, setMessage] = useState("");
 	const [errors, setErrors] = useState(false);
 	const [errorMsg, setErrorMsg] = useState([]);
 	const [success, setSuccess] = useState("");
+
+	useEffect(() => {
+		emailJs.init("user_hxfO5whlzoN4hbuBtpvvL");
+	}, []);
 
 	function handleSubmit(e) {
 		setSuccess("");
@@ -76,7 +78,6 @@ const Contact = () => {
       errorMsg.classList.remove("error-display");
       errorMsg.classList.add("fade");
     }, 2000);
-    // this.setState({ success: "", errors: false, errorMsg: [] });
   }
 
 	return (
@@ -104,7 +105,7 @@ const Contact = () => {
 							type="text"
 							className="form-control"
 							value={name}
-							onChange={(e) => setName(e)}
+							onChange={(e) => setName(e.value)}
 						/>
 					</div>
 					<div className="form-group">
@@ -114,7 +115,7 @@ const Contact = () => {
 							className="form-control"
 							aria-describedby="emailHelp"
 							value={email}
-							onChange={(e) => setEmail(e)}
+							onChange={(e) => setEmail(e.value)}
 						/>
 					</div>
 				</div>
@@ -125,7 +126,7 @@ const Contact = () => {
 						className="form-control"
 						rows="5"
 						value={message}
-						onChange={(e) => setMessage(e)}
+						onChange={(e) => setMessage(e.value)}
 					/>
 				</div>
 				<input

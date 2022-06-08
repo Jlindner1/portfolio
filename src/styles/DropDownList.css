@@ -1,0 +1,103 @@
+.dropdown-button {
+  background-color: #ffc421b9;
+  height: 50px;
+  overflow: hidden;
+  color: white;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: 5px 5px 40px -10px black;
+  transition: all 0.5s ease;
+}
+
+.dropdown-button:hover {
+  background-color: rgba(88, 36, 129, 0.747);
+  cursor: pointer;
+  font-size: 2rem;
+  color: #ffc421b9;
+  transition: all 0.5s ease;
+}
+
+.dropdown {
+  margin: 5px;
+  position: relative;
+}
+
+.dropdown-content {
+  position: absolute;
+  z-index: 100;
+  background-color: rgb(31, 33, 46);
+  margin: 0;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 5px;
+  border-radius: 0 0 10px 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.dropdown-item {
+  /* max-height: 200px; */
+  padding: 10px;
+  border-radius: 5px;
+  height: max-content;
+  background-color: rgb(255, 255, 255);
+  /* background-image: url("../assets/black-paper.png"); */
+  cursor: pointer;
+  margin: 5px;
+  color: rgb(31, 33, 46);
+  transition: all 0.5s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #ffc176;
+  color: rgb(223, 224, 236);
+  transition: all 0.5s ease;
+}
+
+.dropdown-item > h3 {
+  color: rgb(31, 33, 46);
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  transition: all 0.5s ease;
+}
+
+.dropdown-item:hover > h3 {
+  color: rgb(223, 224, 236);
+  transition: all 0.5s ease;
+}
+
+.dropdown-item .icon {
+  font-size: clamp(1rem, 5vw, 4.5rem);
+}
+
+.dropdown-content {
+  max-height: 500px;
+  transition: max-height 1s ease, transform 1s ease, opacity 1s;
+}
+
+.visually-hidden {
+  max-height: 0;
+  transition: max-height 1s ease, transform 1s ease, opacity 1s;
+}
+
+.dropdown-item {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.dropdown-item h3 {
+  margin: 0;
+}
+
+.dropdown-item .icon {
+  width: 50px;
+}

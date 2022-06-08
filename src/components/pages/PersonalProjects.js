@@ -12,7 +12,7 @@ const PersonalProjects = () => {
 					<img src={construction} alt="under construction image" />
 				</div>
 				<div>
-					<p>This page is still being worked on, come back soon!</p>
+					<p>This page is still being worked on, come back soon!This page is still being worked on, come back soon!This page is still being worked on, come back soon!This page is still being worked on, come back soon!This page is still being worked on, come back soon!This page is still being worked on, come back soon!This page is still being worked on, come back soon!This page is still being worked on, come back soon!This page is still being worked on, come back soon!This page is still being worked on, come back soon!This page is still being worked on, come back soon!This page is still being worked on, come back soon!This page is still being worked on, come back soon!</p>
 				</div>
 			</div>
 		</div>
